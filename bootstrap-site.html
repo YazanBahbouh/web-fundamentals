@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        bootstrapsite
+    </title>
+    <link rel="stylesheet" href="bootstrap-file.css">
+    <script src="bootstrap-site.js"></script>
+</head>
+
+<body>
+    <h1>Option I (ChiCodes - Bootstrap)</h1>
+    <!--navbar-->
+    <div class="nav">
+        <ul class="nav-links">
+            <li><img src="assets/logo (1).png" alt="bootstrap-icon"></li>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">Example</a></li>
+            <li><a href="#">Themes</a></li>
+            <li><a href="#">Expo</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+
+        <ul class="nav-links">
+            <li><select class="select-list">
+                    <option>v4.3</option>
+                </select>
+            </li>
+            <li><a href="#"><img src="assets/ico-git.png"></a></li>
+            <li><a href="#"><img src="assets/ico-twitter.png"></a></li>
+            <li><a href="#"><img src="assets/ico-slack.png"></a></li>
+            <li><a href="#"><img src="assets/ico-coll.png"></a></li>
+            <button type="button" class="download">Download</button>
+
+        </ul>
+    </div>
+
+    <!--body -->
+
+    <div class="container">
+        <div class="introduction">
+            <div class="col-2">
+                <h1>Bootstrap</h1>
+                <p>
+                    Build responsive, mobile-first projects on the web<br>
+                    with the world's most popular front-end<br>
+                    component library.
+                </p>
+                <p>
+                    Bootstrap is an open source toolkit for developing for<br>
+                    html ,css and js. Quickly<br>
+                    prototype your ideas or build your entire app with<br>
+                    our Sass variables and mixins,
+                    ,responsive grid system ,extensive prebuilt components,
+                    and powerful plugins built on jQuery.
+                </p>
+                <div>
+                    <button type="button" class="btn get-started"
+                    onclick="countbuttonCliked()" 
+                    onmouseover="over(this)" onmouseout="out(this)">Get Started</button>
+                    <button type="button" class="btn">download</button>
+                </div>
+                <p>
+                    currently v4.3.1
+                </p>
+                <div class="segment">
+                    <div class="segment-img">
+                        <img src="assets/ad-segment.png" alt="segment">
+                    </div>
+                    <div id="text">
+                        Collect customer data
+                        once with a single API.
+                        Power your entire tech
+                        stack
+                        ads via carbon
+                    </div>
+                </div>
+            </div>
+            <div class="col-1">
+                <img src="assets/main_img.png">
+            </div>
+        </div>
+        <div class="main">
+            <div class="content">
+                <div class="sub-content">
+                    <div>
+                        <img src="assets/ico-install.png" alt="install">
+                    </div>
+                    <h3>Installation</h3>
+                    <p>
+                        Include Bootstrap's source Sass and
+                        JavaScript files via npm, Composer
+                        or Meteor. Package managed
+                        installs don't include
+                        documentation, but do include our
+                        build system and readme.
+                    </p>
+                    <p> $npm install bootstarp</p>
+                    <p> $gem install bootstap -v 4.3.1</p>
+                    <div>
+                        <button type="button" class="btn read-btn">Read Installation docs</button>
+                    </div>
+                </div>
+                <div class="sub-content">
+                    <div>
+                        <img src="assets/ico-cdn.png" alt="install">
+                    </div>
+                    <h3>BootstrapCDN</h3>
+                    <p>
+                        When you only need to include
+                        Bootstrap's compiled Css or Js,you
+                        can use BootstrapCDN.
+
+                    </p>
+                    <h4>CSS Only</h4>
+                    <h4>JS, Propper.js, and Jquery</h4>
+                    <div>
+                        <button type="button" class="btn read-btn">explore the docs</button>
+                    </div>
+                </div>
+                <div class="sub-content">
+                    <div>
+                        <img src="assets/ico-themes.png" alt="install">
+                    </div>
+                    <h3>Official Themes</h3>
+                    <p>
+                        Take bootstrap 4 to the next leve
+                        with official premium themes-
+                        toolkits built on bootstrap with new
+                        components and plugins, docs, and
+                        build tools
+                    </p>
+                    <div>
+                        <img src="assets/theme_img.png" alt="themes">
+                    </div>
+                    <div>
+                        <button type="button" class="btn read-btn">Browse themes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <table class="footer-lists">
+                <tr>
+                    <td>Github</td>
+                    <td>Twitter</td>
+                    <td>Examples</td>
+                    <td>About</td>
+                </tr>
+            </table>
+            <p>
+                Desgined and built with all the love in the world by <b>Bootstrap tem</b>
+                 with the help of <b>our contributors.</b>
+                <br>
+                    Currently v4.3.1. Code licensed <b>MIT</b>, docs <b>CC BY 3.0.</b>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

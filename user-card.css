@@ -1,0 +1,32 @@
+.user-card {
+    width:500px;
+    margin: 50px auto;
+  }
+  .user-card #part1 {
+    background-color: #17a2b8;
+    height: 60px;
+
+  }
+  .user-card .avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-top: 20px;
+    border: 3px solid #cccccc;
+  }
+  .user-card #part2 {
+    border: 2px solid #cccccc;
+    border-top: none;
+    height: 180px;
+    padding: 30px;
+  }
+  .edit {
+    display: flex;
+    align-items: center;
+  }
+  .icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+  }

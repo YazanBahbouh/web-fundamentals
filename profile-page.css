@@ -1,151 +1,151 @@
 .topnav {
-    background-color: #333333;
-    padding: 10px 20px;
+  background-color: #333333;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+.topnav a {
+  text-align: center;
+  text-decoration: none;
+  color: #808080;
+  margin: 0 15px;
+}
+.topnav a.active {
+  color: white;
+}
+.nav-title {
+  color: white;
+  margin: 5px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.sign-out {
+  color: #fff;
+  background-color: #17a2b8;
+  padding: 2px 7px;
+  box-shadow: 5px 2px 4px black;
+}
+  .person-details{
+   margin: 30px 140px 0 200px;
+   display: flex;
+  }
+  .row {
+    margin-right: 30px;
+  }
+  .user-card {
+    margin-bottom: 40px
+  }
+  .user-card #part1 {
+    background-color: #17a2b8;
+     height: 60px;
+    position: relative;
+  }
+  .avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid #cccccc;
+    position: absolute;
+    top: 120px;
+  }
+  .user-card #part2 {
+    border: 2px solid #cccccc;
+    border-top: none;
+    height: 180px;
+    padding: 30px;
+  }
+  .edit {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-  
   }
-  .topnav a {
-    text-align: center;
-    text-decoration: none;
-    color: #808080;
-    margin: 0 15px;
+  .icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
   }
-  .topnav a.active {
-    color: white;
+  .education-part {
+   width: 400px;
   }
-  .nav-title {
-    color: white;
-    margin: 5px 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  #top-part1 {
+    background-color: #000;
   }
-  .nav-links {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
+  .row .education-part #top-part1  h4 {
+    color: #fff;
+    padding: 7px;
     margin: 0;
+    margin-left: 30px;
+}
+ #shared-part2 {
+    border: 2px solid #cccccc;
+    border-top: none;
+    padding: 10px 30px;
+  }
+  .education-part #e-part2 div {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  #grayFont {
+    color: #808080;
+    font-size: 14px;
+  }
+  .pending-reqs {
+    width: 230px;
+    margin-bottom: 25px;
+  }
+  .pending-reqs #shared-part2 {
+    padding: 10px;
+  }
+  .connsNum {
+    background-color: #808080;
+    border-radius: 50%;
+    width:25px;
+    height: 25px;
+    margin: 5px 0 2px  3px;
+  }
+  #text {
+   font-weight: bold;
+   font-size: 16px;
+   color: #fff;
+   vertical-align: middle;
+  }
+  .conns-avatar {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+  }
+  #shared-part2 #text {
+    color: #000;
+  }
+  .pendingReq {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #iconbtn {
+    border: none;
+    background-color: #fff;
     padding: 0;
   }
-  .sign-out {
-    color: #fff;
-    background-color: #17a2b8;
-    padding: 2px 7px;
-    box-shadow: 5px 2px 4px black;
+  .connections .connsNum {
+    width: 50px;
   }
-    .person-details{
-     margin: 30px 140px 0 200px;
-     display: flex;
-    }
-    .row {
-      margin-right: 30px;
-    }
-    .user-card {
-      margin-bottom: 40px
-    }
-    .user-card #part1 {
-      background-color: #17a2b8;
-       height: 60px;
-      position: relative;
-    }
-    .avatar {
-      width: 70px;
-      height: 70px;
-      border-radius: 50%;
-      border: 3px solid #cccccc;
-      position: absolute;
-      top: 120px;
-    }
-    .user-card #part2 {
-      border: 2px solid #cccccc;
-      border-top: none;
-      height: 180px;
-      padding: 30px;
-    }
-    .edit {
-      display: flex;
-      align-items: center;
-    }
-    .icon {
-      width: 15px;
-      height: 15px;
-      margin-right: 10px;
-    }
-    .education-part {
-     width: 400px;
-    }
-    #top-part1 {
-      background-color: #000;
-    }
-    .row .education-part #top-part1  h4 {
-      color: #fff;
-      padding: 7px;
-      margin: 0;
-      margin-left: 30px;
+  .connections #shared-part2 {
+    height: 220px;
+    padding: 4px
   }
-   #shared-part2 {
-      border: 2px solid #cccccc;
-      border-top: none;
-      padding: 10px 30px;
-    }
-    .education-part #e-part2 div {
-      font-weight: bold;
-      font-size: 16px;
-    }
-    #grayFont {
-      color: #808080;
-      font-size: 14px;
-    }
-    .pending-reqs {
-      width: 230px;
-      margin-bottom: 25px;
-    }
-    .pending-reqs #shared-part2 {
-      padding: 10px;
-    }
-    .connsNum {
-      background-color: #808080;
-      border-radius: 50%;
-      width:25px;
-      height: 25px;
-      margin: 5px 0 2px  3px;
-    }
-    #text {
-     font-weight: bold;
-     font-size: 16px;
-     color: #fff;
-     vertical-align: middle;
-    }
-    .conns-avatar {
-      border-radius: 50%;
-      width: 30px;
-      height: 30px;
-      vertical-align: middle;
-    }
-    #shared-part2 #text {
-      color: #000;
-    }
-    .pendingReq {
-      margin-bottom: 20px;
-      display: flex;
-      justify-content: space-between;
-    }
-    #iconbtn {
-      border: none;
-      background-color: #fff;
-      padding: 0;
-    }
-    .connections .connsNum {
-      width: 50px;
-    }
-    .connections #shared-part2 {
-      height: 220px;
-      padding: 4px
-    }
-    .connections .pendingReq {
-      justify-content : start;
-      align-items: center;
-    }
-    .view {
-      border-top: 2px solid #cccccc; 
-    }
+  .connections .pendingReq {
+    justify-content : start;
+    align-items: center;
+  }
+  .view {
+    border-top: 2px solid #cccccc; 
+  }

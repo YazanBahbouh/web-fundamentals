@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="likes.css">
+</head>
+<body>
+
+    <!-- navbar -->
+    <div class="nav">
+        <h1 class="nav-title">Network</h1>
+    </div>
+
+    <h1 class="text-center">Your Feed</h1>
+
+    <!-- main -->
+    <div class="flex-container main">
+
+        <!-- 1/3 width column -->
+        <div class="col-1">
+
+            <!-- user info card -->
+            <div class="card user-card">
+                <div class="card-body text-center">
+                    <img src="images/blank-avatar-photo-icon-design-260nw-1682415103.webp" alt="jane" class="avatar-m">
+                    <div>
+                        <a href="#add">Add an avatar</a>
+                    </div>
+                    <h1>Jane Doe</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2/3 width column -->
+        <div class="col-2">
+            <div class="card">
+                <div class="card-header">
+                    <h4>Neil M</h4>
+                    <div>
+                        <span id="requests-1">9</span> Likes
+                        <button type="button" class="like" onclick='addLike("#requests-1")'>Like</button>
+                    </div>
+                    
+                </div>
+                <div class="card-body">
+                   <p>
+                    I just set up the new discord, let me konow about <a href="#you">you</a>
+                   </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h4>Jamis D</h4>
+                    <div>
+                    <span id="requests-2">12</span> Likes
+                    <button type="button" class="like" onclick='addLike("#requests-2")'>Like</button>
+                        
+                    </div>
+                    
+                </div>
+                <div class="card-body">
+                   <p>
+                   Just finished my iconomic text <a href="#you">you</a>
+                   </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h4>Neichol M</h4>
+                    <div>
+                        <span id="requests-3">12</span> Likes
+                        <button type="button" class="like" onclick='addLike("#requests-3")'>Like</button>
+                    </div>
+                    
+                </div>
+                <div class="card-body">
+                   <p>
+                    I just set up the new discord, let me konow about <a href="#you">you</a>
+                   </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="likes.js"></script>
+</body>
+</html>

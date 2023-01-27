@@ -1,0 +1,157 @@
+body {
+    font-size: 1.6rem;
+}
+
+h1,h3 {
+    margin: 20px 0;
+}
+
+.introduction,
+.nav,
+.nav-links,
+.content,
+.footer-lists {
+    display: flex;
+    justify-content: space-between;
+}
+
+.introduction,
+.nav,
+.nav-links {
+
+    align-items: center;
+
+}
+
+.nav,
+.download,
+.select-list {
+    background-color: #6b429d;
+}
+
+.nav {
+    height: 80px;
+    color: #fff;
+
+}
+
+.nav-links, .footer-lists {
+    list-style-type: none;
+}
+
+.nav-links a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.nav-links a.active {
+    color: #fff;
+    font-weight: bold;
+
+}
+
+li {
+    padding: 9px;
+}
+
+.select-list {
+    color: #ccc;
+    font-size: 1.2rem;
+}
+
+.download {
+    width: 120px;
+    height: 40px;
+    margin: 20px;
+    color: gold;
+    border: 2px solid gold;
+    border-radius: 5px;
+    font-size: 1.2rem;
+
+}
+
+.introduction {
+    margin: 70px 120px;
+    align-items: flex-start;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-1 {
+    flex: 1;
+}
+
+.col-2 h1 {
+    color: #6b429d;
+}
+
+.col-2,.btn, #text {
+    color: #998080;
+}
+
+.col-2 p {
+    font-size: 1.6rem;
+}
+
+.btn {
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    margin-right: 20px;
+    background-color: #fff;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    border: 2px solid #998080;
+}
+
+.get-started {
+    border: 2px solid #6b429d;
+    color: #6b429d;
+}
+
+.segment {
+    background-color: #f2f2f2;
+    display: flex;
+    padding: 20px;
+    width: 320px;
+}
+
+#text {
+    padding-left: 15px;
+    font-size: 1.2rem;
+}
+
+.main {
+    padding: 70px 120px;
+    background-color: #f8f9fa;
+}
+
+.sub-content {
+    padding: 20px;
+    margin: 10px;
+    
+}
+.sub-content P {
+    color: #998080;
+}
+
+.read-btn {
+    margin-top: 90px;
+    color: #728afe;
+    border: 2px solid #728afe;
+    width: 230px;
+}
+.footer {
+    margin-top: 4px;
+    padding: 70px 120px;
+    background-color: #f7f7f7;
+}
+td {
+    padding: 0 10px;
+    font-size: 1.3rem;
+}
+.footer p{
+    color: #998080;
+}

@@ -1,0 +1,114 @@
+.container {
+    margin: 0 150px;
+}
+.topnav {
+    background-color: #cccccc;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-title {
+    margin: 5px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .search {
+    border: 2px #000 solid;
+  }
+  .login {
+    color: #fff;
+    background-color: #17a2b8;
+    padding: 2px 7px;
+    box-shadow: 5px 2px 4px black;
+  }
+    .person-details{
+        margin-top: 30px;
+
+    }
+    .row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .section-1 {
+      text-align: center;
+      border: 2px solid #000;
+      display: flex;
+      padding: 8px;
+      align-items: center;
+    }
+    #part2 {
+        padding: 10px;
+    }
+    .likes {
+        background-color: #ffd966;
+        padding: 2px 7px;
+        box-shadow: 5px 2px 4px black;
+    }
+    .def {
+        background-color: #93c47d;
+        padding: 2px 7px;
+        box-shadow: 5px 2px 4px black;
+        width: 150px;
+        padding: 5px;
+    }
+   #shared-part2 {
+      border: 2px solid #000;
+      padding: 10px 30px;
+    }
+    .education-part #e-part2 div {
+      font-weight: bold;
+      font-size: 16px;
+    }
+    #grayFont {
+      color: #808080;
+      font-size: 14px;
+    }
+    .pending-reqs {
+      width: 230px;
+      margin-bottom: 25px;
+    }
+    .pending-reqs #shared-part2 {
+      padding: 10px;
+    }
+    .connsNum {
+      background-color: #808080;
+      border-radius: 50%;
+      width:25px;
+      height: 25px;
+      margin: 5px 0 2px  3px;
+    }
+    #text {
+     font-weight: bold;
+     font-size: 16px;
+     color: #fff;
+     vertical-align: middle;
+    }
+    .conns-avatar {
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      vertical-align: middle;
+    }
+    #shared-part2 #text {
+      color: #000;
+    }
+    .pendingReq {
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .connections .connsNum {
+      width: 50px;
+    }
+    .connections #shared-part2 {
+      height: 220px;
+      padding: 4px
+    }
+    .connections .pendingReq {
+      justify-content : start;
+      align-items: center;
+    }
+    .view {
+      border-top: 2px solid #cccccc; 
+    }

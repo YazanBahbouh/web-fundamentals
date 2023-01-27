@@ -1,0 +1,33 @@
+.topnav {
+    background-color: #333333;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.topnav a {
+    text-align: center;
+    text-decoration: none;
+    color: #808080;
+    margin: 0 15px;
+}
+.topnav a.active {
+    color: white;
+}
+.nav-title {
+    color: white;
+    margin: 5px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.sign-out {
+    color: #fff;
+    background-color: #17a2b8;
+    padding: 2px 7px;
+    box-shadow: 5px 2px 4px black;
+  }
