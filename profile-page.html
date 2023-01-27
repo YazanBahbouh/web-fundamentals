@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+                Profile
+        </title>
+        <link rel="stylesheet" type="text/css" href="profile-page.css">
+        <script src="profile-page.js"></script>
+    </head>
+    <body>
+        <div class="topnav">
+            <ul class="nav-links">
+                <li><h1 class="nav-title">Profile</h1></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+            </ul>
+            <button class="sign-out">Sign Out</button>
+        </div>
+        <div class="person-details">
+            <div class="row">
+                <div class="user-card">
+                    <div id="part1">
+                    </div>
+                    <div id="part2">
+                        <img src="images/todd-s.jpg" class="avatar">
+                        <h3>Jane Doe</h3>
+                            <div class="location">
+                                <img src="images/map-marker.png" class="icon">
+                                <span><b>Seattle</b></span>
+                            </div>
+                        <p>Developer | Engineer | Problem Solver</p>
+                        <p>Master of Shadows and the Internet!</p>
+                        <div class="edit">
+                            <img src="images/gear.png" class="icon">
+                            <a href="#edit" onclick="changeUserName()"> edit profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-part">
+                    <div id="top-part1">
+                        <h4>Education</h4>
+                    </div>
+                    <div id="shared-part2">
+                        <div>Coding Dojo - Full Stack Bootcamp</div>
+                        <p id="grayFont">Dec 2019 - Mar 2020</p>
+                        <p>
+                            Triple black pelt in python , c#..
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="pending-reqs">
+                    <div id="top-part1">
+                        <button class="connsNum">2</button>
+                        <span id="text">Connections Requests</span>
+                    </div>
+                    <div id="shared-part2">
+                        <div class="pendingReq">
+                            <div id="req1">
+                                <img id="imgUser" class="conns-avatar" src="images/anne-s.jpg">
+                                <span id="text">Anne S</span>
+                            </div>
+                            <div id="req1">
+                               <button type="button" id="iconbtn" onclick="removeuser()">
+                                <img src="images/accept-circle.png" class="conns-avatar">
+                               </button> 
+                               <button type="button" id="iconbtn" onclick="removeuser()">
+                                <img src="images/close-circle.png" class="conns-avatar">
+                               </button> 
+                            </div>
+                        </div>
+                        <div class="pendingReq">
+                            <div>
+                                <img class="conns-avatar" src="images/phil-s.jpg">
+                                <span id="text"> Phil K </span>
+                            </div>
+                            <div>
+                                <button type="button" id="iconbtn" onclick="removeuser()">
+                                 <img src="images/accept-circle.png" class="conns-avatar">
+                                </button> 
+                                <button type="button" id="iconbtn" onclick="removeuser()">
+                                 <img src="images/close-circle.png" class="conns-avatar">
+                                </button> 
+                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="connections">
+                    <div id="top-part1">
+                        <button class="connsNum">500+</button>
+                        <span id="text">Your Connections </span>
+                    </div>
+                    <div id="shared-part2">
+                        <div class="pendingReq">
+                            <img class="conns-avatar" src="images/alayne-s.jpg">
+                            <span id="text"> Alyan S </span>
+                        </div>
+                        <div class="pendingReq">
+                            <img class="conns-avatar" src="images/adrien-s.jpg">
+                            <span id="text"> Adriean S </span>
+                        </div>
+                        <div class="pendingReq">
+                            <img class="conns-avatar" src="images/arry-s.jpg">
+                            <span id="text"> Arry A </span>
+                        </div>
+                        <div class="pendingReq">
+                            <img class="conns-avatar" src="images/jane-m.jpg">
+                            <span id="text"> Jane M </span>
+                        </div>
+                        <div class="view">
+                            <a href="#view">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </body>
+</html>
